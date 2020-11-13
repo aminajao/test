@@ -16,11 +16,8 @@ a {
 .button-container {
   display: flex;
   justify-content: flex-end;
-  position: fixed;
+  margin-top: 7rem;
   margin-left: auto;
-  bottom: 0;
-  right: 0;
-  /* width: 100%; */
 }
 
 .button {
@@ -30,7 +27,7 @@ a {
   border-radius: 4px;
   font-family: inherit;
   font-size: 16px;
-  margin: 0 3rem 3rem 0rem;
+  margin: 0 3rem 0rem 0rem;
   cursor: pointer;
 }
 
@@ -186,21 +183,9 @@ a {
   /* grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr)); */
   grid-column-gap: 5rem;
 }
-/* .frame-container {
-  width: 350px;
-  height: 200px;
-  background-color: aqua;
-}
-.color-container {
-  width: 350px;
-  height: 50px;
-  background-color: #A1ACC4;
-}
-.logo-container {
-  width:350px;
-  height: 200px;
-  background-color: #5C82F2;
-} */
+.frame-container, .color-container, .logo-container {
+  margin-top: 1rem;
+} 
 
 .frame-content_container {
   border: 1px solid var(--color-primary);
